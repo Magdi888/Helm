@@ -40,4 +40,12 @@
     - Visit jenkins url and login with admin password
       ![image](https://user-images.githubusercontent.com/91858017/180661316-b2086c52-9703-4641-b217-989c072447a7.png)
 
+- ### Push chart to [Artifact Hub](https://artifacthub.io/)
+  #### Steps:
+      - Package the chart, run:
+      
+      ```
+      helm package ./webapp-chart
+      ```
+    ![image](https://user-images.githubusercontent.com/91858017/180663983-4bd5fe0c-7459-4bad-84cb-a57eff98e714.png)
 
