@@ -42,10 +42,32 @@
 
 - ### Push chart to [Artifact Hub](https://artifacthub.io/)
   #### Steps:
-      - Package the chart, run:
-      
-      ```
-      helm package ./webapp-chart
-      ```
+    - Package the chart, run:
+     ```
+       helm package ./webapp-chart
+     ```
     ![image](https://user-images.githubusercontent.com/91858017/180663983-4bd5fe0c-7459-4bad-84cb-a57eff98e714.png)
+    
+    - Generate key to sign helm package, run:
+     ```
+       gpg --quick-generate-key [uid]
+     ```
+    - Convert your keyring to the legacy gpg format:
+     ```
+       gpg --export-secret-keys >~/.gnupg/secring.gpg
+     ```
+    - Sign helm package:
+     ```
+       helm package --sign --key 'uid' --keyring ~/.gnupg/secring.gpg ./webapp-chart
+     ```
+    ![image](https://user-images.githubusercontent.com/91858017/180665234-3ea74284-96cf-4d57-85de-bf681a2113c9.png)
+    
+    - Create directory and move the package to it
+     
+    - Create index for the helm package:
+     ```
+       helm repo index [Package DIRECTORY]
+     ```
+    ![image](https://user-images.githubusercontent.com/91858017/180666218-6b383876-4444-4ca1-8595-5e9eb0fed822.png)
 
+    - 
