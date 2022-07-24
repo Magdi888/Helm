@@ -70,4 +70,18 @@
      ```
     ![image](https://user-images.githubusercontent.com/91858017/180666218-6b383876-4444-4ca1-8595-5e9eb0fed822.png)
 
-    - 
+    - Create GitHub Pages for my repo [WebApp_Chart_Package](https://magdi888.github.io/Helm/webapp-chart-package)
+    
+    ![image](https://user-images.githubusercontent.com/91858017/180667101-3c979a3c-634c-4fc5-92a9-c13358de047e.png)
+    
+    - Add chart to Artifact Hub:
+    
+    ![image](https://user-images.githubusercontent.com/91858017/180667166-93fc1f16-7b76-447c-9caa-bc7653afe497.png)
+    
+    ![image](https://user-images.githubusercontent.com/91858017/180667222-ad4e7503-3dd7-4ac8-9ca1-5e741b0837fc.png)
+    
+
+
+
+
+    
