@@ -80,6 +80,10 @@
     
     ![image](https://user-images.githubusercontent.com/91858017/180667222-ad4e7503-3dd7-4ac8-9ca1-5e741b0837fc.png)
     
+    - Add a metadata file including the repository ID to make repositories to be labeled as Verified Publisher
+    
+    Repository -------> [LINK](https://artifacthub.io/packages/helm/webappchart/webapp-chart)
+    
 
 
 
